@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agenda</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Agenda de Contactos</h1>
+
+  <div id="add-contact">
+    <h2>Agregar Nuevo Contacto</h2>
+    <form id="contact-form">
+      <input type="text" id="nombre" placeholder="Nombre" required>
+      <input type="text" id="apellido" placeholder="Apellido" required>
+      <input type="text" id="telefono" placeholder="Teléfono" required>
+      <button type="submit">Guardar</button>
+    </form>
+  </div>
+
+  <div id="contact-list">
+    <h2>Listado de Contactos</h2>
+    <ul id="contacts"></ul>
+  </div>
+</body>
+</html>
